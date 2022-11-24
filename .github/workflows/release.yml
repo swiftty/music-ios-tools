@@ -40,7 +40,9 @@ jobs:
         body: | 
           - checksum for `.binaryTarget(name:url:checksum:)`
 
-          ${{ steps.bundler.outputs.checksums }}
+            ```
+            ${{ steps.bundler.outputs.checksums }}
+            ```
 
           ---
         files: |
