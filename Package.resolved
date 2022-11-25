@@ -138,10 +138,10 @@
     {
       "identity" : "xcodegen",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yonaskolb/XcodeGen",
+      "location" : "https://github.com/swiftty/XcodeGen",
       "state" : {
-        "revision" : "ebf70f1a718e90eeeefeebd02e1e0af1e9463f5a",
-        "version" : "2.32.0"
+        "branch" : "feature/resources",
+        "revision" : "b89ed7032b4a63f22495bde5d69566f9788df88e"
       }
     },
     {
