@@ -23,7 +23,7 @@ jobs:
         swift-version: '5.7'
         depth: 1
 
-  publish:
+  draft:
     needs: [ build ]
 
     runs-on: ubuntu-latest
@@ -38,7 +38,8 @@ jobs:
         draft: true
         generate_release_notes: true
         body: | 
-          - checksum for `.binaryTarget(name:url:checksum:)`
+          ## Checksums
+          - for `.binaryTarget(name:url:checksum:)`
 
             ```
             ${{ steps.bundler.outputs.checksums }}
