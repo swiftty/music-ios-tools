@@ -9,6 +9,5 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/swiftty/XcodeGen", branch: "feature/resources"),
 //        .package(url: "https://github.com/realm/SwiftLint", from: "0.43.0"),
-        .package(url: "https://github.com/swiftty/LicenseGen", from: "0.0.7")
     ]
 )
