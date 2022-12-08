@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: swiftty/swiftpm-artifactbundle-builder@main
+    - uses: swiftty/swiftpm-artifactbundle-builder@v1
       with:
         swift-version: '5.7'
         depth: 1
@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: swiftty/swiftpm-artifactbundle-bundler@main
+    - uses: swiftty/swiftpm-artifactbundle-bundler@v1
       id: bundler
       with:
         variants-version: ${{ github.ref_name  }}
