@@ -78,7 +78,7 @@
       "location" : "https://github.com/swiftty/XcodeGen",
       "state" : {
         "branch" : "feature/resources",
-        "revision" : "b89ed7032b4a63f22495bde5d69566f9788df88e"
+        "revision" : "45dca1ea1a5921ba9285712702de1fd281855d92"
       }
     },
     {
@@ -86,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tuist/XcodeProj.git",
       "state" : {
-        "revision" : "b6de1bfe021b861c94e7c83821b595083f74b997",
-        "version" : "8.8.0"
+        "revision" : "fae27b48bc14ff3fd9b02902e48c4665ce5a0793",
+        "version" : "8.9.0"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jpsim/Yams.git",
       "state" : {
-        "revision" : "9ff1cc9327586db4e0c8f46f064b6a82ec1566fa",
-        "version" : "4.0.6"
+        "revision" : "f47ba4838c30dbd59998a4e4c87ab620ff959e8a",
+        "version" : "5.0.5"
       }
     }
   ],
