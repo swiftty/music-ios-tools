@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: swiftty/swiftpm-artifactbundle-builder@v3
+    - uses: swiftty/swiftpm-artifactbundle-builder@v4
       with:
         swift-version: '5.7'
         depth: 1
